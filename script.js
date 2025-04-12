@@ -1,4 +1,4 @@
-// Animation on page load
+
 window.onload = () => {
     document.querySelectorAll('section').forEach(section => {
       section.style.opacity = 0;
@@ -9,13 +9,13 @@ window.onload = () => {
     });
   };
   
-  // Form submission handler
+ 
   document.addEventListener('DOMContentLoaded', () => {
     const form = document.querySelector('form');
     form.addEventListener('submit', (e) => {
       e.preventDefault();
       alert('Form submitted successfully!');
-      // Here, we can send form data to a backend
+     
     });
   });
   

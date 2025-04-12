@@ -1,4 +1,4 @@
-/* General Reset and Fonts */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,7 +7,7 @@ body {
     color: #333;
   }
   
-  /* Layout */
+
   header, footer {
     background: #004466;
     color: white;
