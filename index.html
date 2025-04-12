@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced HTML5 Elements and Forms</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Page Header -->
+  <header>
+    <h1>Welcome to Advanced HTML5 Practice</h1>
+  </header>
+
+  <!-- Ordered List with Roman Numerals -->
+  <section>
+    <h2>Roman Numeral List</h2>
+    <ol type="I">
+      <li>Learn HTML5</li>
+      <li>Build a Web Page</li>
+      <li>Understand Forms</li>
+    </ol>
+  </section>
+
+  <!-- External Image -->
+  <section>
+    <h2>Inspiration Image</h2>
+    <img src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg" 
+         alt="Beautiful Workspace" 
+         width="600" />
+  </section>
+
+  <!-- Contact Table -->
+  <section>
+    <h2>Contact List</h2>
+    <table border="1" cellpadding="10">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jane Doe</td>
+          <td>123 Main St</td>
+          <td>0712345678</td>
+          <td>jane@example.com</td>
+        </tr>
+        <tr>
+          <td>John Smith</td>
+          <td>456 Oak St</td>
+          <td>0723456789</td>
+          <td>john@example.com</td>
+        </tr>
+        <tr>
+          <td>Emily Johnson</td>
+          <td>789 Pine St</td>
+          <td>0734567890</td>
+          <td>emily@example.com</td>
+        </tr>
+        <tr>
+          <td>Michael Brown</td>
+          <td>321 Cedar Ave</td>
+          <td>0745678901</td>
+          <td>michael@example.com</td>
+        </tr>
+        <tr>
+          <td>Linda White</td>
+          <td>654 Birch Blvd</td>
+          <td>0756789012</td>
+          <td>linda@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Registration Form -->
+  <section>
+    <h2>Registration Form</h2>
+    <form>
+      <!-- Name -->
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter full name" required />
+      <br><br>
+
+      <!-- Email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter email" required />
+      <br><br>
+
+      <!-- Password -->
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Create password" minlength="6" required />
+      <br><br>
+
+      <!-- Date of Birth -->
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required />
+      <br><br>
+
+      <!-- Dropdown -->
+      <label for="country">Country:</label>
+      <select id="country" name="country" required>
+        <option value="">--Select--</option>
+        <option value="ke">Kenya</option>
+        <option value="ug">Uganda</option>
+        <option value="tz">Tanzania</option>
+      </select>
+      <br><br>
+
+      <!-- Radio Buttons -->
+      <p>Gender:</p>
+      <input type="radio" id="male" name="gender" value="male" required />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" required />
+      <label for="female">Female</label>
+      <br><br>
+
+      <!-- Checkboxes -->
+      <p>Hobbies:</p>
+      <input type="checkbox" id="reading" name="hobbies" value="reading" />
+      <label for="reading">Reading</label>
+      <input type="checkbox" id="travel" name="hobbies" value="travel" />
+      <label for="travel">Traveling</label>
+      <input type="checkbox" id="sports" name="hobbies" value="sports" />
+      <label for="sports">Sports</label>
+      <br><br>
+
+      <!-- Submit Button -->
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Advanced HTML5 Practice</p>
+  </footer>
+
+</body>
+<script src="script.js"></script>
+</html>
